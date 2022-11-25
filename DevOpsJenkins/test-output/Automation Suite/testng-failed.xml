@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Register Demo(failed)">
+    <classes>
+      <class name="com.telus.registerdemo.RegisterDemoTestNG">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="launchApplication"/>
+          <include name="registerDemo"/>
+          <include name="validateSuccessfulMsg"/>
+        </methods>
+      </class> <!-- com.telus.registerdemo.RegisterDemoTestNG -->
+    </classes>
+  </test> <!-- Register Demo(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
