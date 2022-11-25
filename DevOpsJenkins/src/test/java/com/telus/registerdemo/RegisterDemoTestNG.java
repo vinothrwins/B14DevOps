@@ -67,6 +67,8 @@ public class RegisterDemoTestNG {
 	@BeforeClass
 	public void launchApplication() {
 		
+		System.out.println("Continous Testing Started");
+		
 		// To Set System Property
 		System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
 
